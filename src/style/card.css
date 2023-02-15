@@ -1,0 +1,37 @@
+
+.main-card{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 350px;
+    margin: auto;
+    padding: .5rem;
+    border-radius: 10px;
+    background-color:rgba(228, 249, 253, 0.734);
+    /* background-position: 110% 40px; */
+    background-position: 150px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 250px;
+    color: #161B22;
+}
+.text-card p{
+    margin: .5rem 0;
+}
+.svg-card svg{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .main-card{
+        display: block;
+        text-align: center;
+        width: 230px;
+    }
+    .svg-card{
+        width: fit-content;
+        margin: auto;
+    }
+}

@@ -1,0 +1,21 @@
+#card-group-main{
+    display:grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* transition: all .3s; */
+    margin: 2rem;
+}
+
+
+@media screen and (max-width: 1170px){
+    #card-group-main{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    #card-group-main{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
